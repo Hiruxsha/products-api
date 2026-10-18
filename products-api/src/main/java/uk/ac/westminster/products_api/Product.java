@@ -18,6 +18,18 @@ public class Product {
         return id;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public String getName() {
         return name;
     }
